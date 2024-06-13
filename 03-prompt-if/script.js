@@ -9,6 +9,15 @@
 // NOTE: don't focus on the existing code structure for now.
 // You will have time to focus on it later.
 
-(() => {
-    // your code here
-})();
+
+    user_response = prompt("Voulez-vous du gateau? (OUI/NON)");
+    let alertMessage = "Félicitations";
+
+    if (user_response === "NON","non") {
+        alertMessage = "du gâteau, ça ne se refuse pas !";
+    }
+
+    alert(alertMessage);
+   
+
+
