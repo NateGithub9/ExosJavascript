@@ -1,3 +1,5 @@
+/* exercice sur l'opérateur === */
+
 const motApplication = "Codepen"
 
 let mot_user = prompt("Veuillez entrer le mot : " + motApplication);
